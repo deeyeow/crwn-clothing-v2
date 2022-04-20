@@ -23,6 +23,9 @@ const SignUpForm = () => {
 
   //console.log(formFields);
 
+  // hook into higher level component/context to rerender (not necessarily DOM)
+  // const { setCurrentUser } = useContext(UserContext);
+
   const resetFormFields = () => {
     setFormFields(defaultFormFields);
   };
